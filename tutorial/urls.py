@@ -19,11 +19,11 @@ from rest_framework import routers
 from rest_framework.urlpatterns import format_suffix_patterns
 
 import snippets
-from quickstart import views
-
-router = routers.DefaultRouter()
-router.register(r'users', views.UserViewSet)
-router.register(r'groups', views.GroupViewSet)
+# from quickstart import views
+#
+# router = routers.DefaultRouter()
+# router.register(r'users', views.UserViewSet)
+# router.register(r'groups', views.GroupViewSet)
 
 # 使用自动URL路由连接我们的API
 # 另外，我们还包括支持浏览器浏览API的登录URL。
